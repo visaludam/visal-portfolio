@@ -4,19 +4,19 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   pathPrefix: "/visal-portfolio",
-  siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // You can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `Visal`,
-    siteTitleAlt: `Visal UDAM - Portfolio`,
-    siteHeadline: `Visal UDAM - Portfolio`,
-    siteUrl: `https://visaludam.me`,
-    siteDescription: `This is a personal website of UDAM Visal. This website illustrates his portfolio, his contact, and his information.`,
-    siteLanguage: `en`,
-    siteImage: `/banner.png`,
-    author: `@visal_udam`,
-  },
+  // siteMetadata: {
+  //   // You can overwrite values here that are used for the SEO component
+  //   // You can also add new values here to query them like usual
+  //   // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
+  //   siteTitle: `Visal`,
+  //   siteTitleAlt: `Visal UDAM - Portfolio`,
+  //   siteHeadline: `Visal UDAM - Portfolio`,
+  //   siteUrl: `https://visaludam.me`,
+  //   siteDescription: `This is a personal website of UDAM Visal. This website illustrates his portfolio, his contact, and his information.`,
+  //   siteLanguage: `en`,
+  //   siteImage: `/banner.png`,
+  //   author: `@visal_udam`,
+  // },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
