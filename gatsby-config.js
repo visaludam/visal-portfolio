@@ -16,7 +16,6 @@ module.exports = {
     siteImage: `/banner.png`,
     author: `@visal_udam`,
   },
-  pathPrefix: "/visal-portfolio",
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
